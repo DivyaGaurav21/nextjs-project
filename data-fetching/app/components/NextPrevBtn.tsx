@@ -10,11 +10,11 @@ const NextPrevBtn: React.FC<NextPrevBtnProps> = ({ setSkipuser, skipuser }) => {
     // console.log(skipuser)
 
     const decrementSkip = () => {
-        setSkipuser((currstate: number) => currstate - 20);
+        setSkipuser(newState => newState - 20);
     };
 
     const incrementSkip = () => {
-        setSkipuser((currstate: number) => currstate + 20);
+        setSkipuser(newState => newState + 20);
     };
 
     return (

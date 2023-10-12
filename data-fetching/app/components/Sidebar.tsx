@@ -6,16 +6,16 @@ const Sidebar = () => {
             {/* Sidebar content */}
             <ul className='flex flex-col items-center w-full gap-6 text-white'>
                 <li>
-                <Link href='/clientside-data-fetching'> CLIENT-SIDE-DATA-FETCHING </Link>
+                <Link href='/clientside-fetch'> CLIENT-SIDE-DATA-FETCHING </Link>
                 </li>
                 <li>
-                <Link href='/clientside-data-fetching'> SERVER-SIDE-DATA-FETCHING </Link>
+                <Link href='/serverside-fetch'> SERVER-SIDE-DATA-FETCHING </Link>
                 </li>
                 <li>
-                <Link href='/clientside-data-fetching'> CLIENT-SIDE-DATA-FETCHING </Link>
+                <Link href='/clientside-fetch'> CLIENT-SIDE-DATA-FETCHING </Link>
                 </li>
                 <li>
-                <Link href='/clientside-data-fetching'> SERVER-SIDE-DATA-FETCHING </Link>
+                <Link href='/clientside-fetch'> SERVER-SIDE-DATA-FETCHING </Link>
                 </li>
             </ul>
         </div>
