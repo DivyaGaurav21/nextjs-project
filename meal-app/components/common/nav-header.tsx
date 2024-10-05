@@ -13,8 +13,8 @@ export default function Header() {
   return (
     <>
       <Shadow />
-      <header className="sticky top-0 py-4 px-4 md:px-10 flex justify-between items-center bg-transparent">
-        <Link href="/" className="flex items-center gap-3 text-white font-bold text-lg md:text-xl uppercase tracking-wider">
+      <header className="relative top-0 py-4 px-4 md:px-10 flex justify-between items-center bg-transparent">
+        <Link href="/" className="flex items-center gap-3 text-white font-bold text-lg md:text-xl uppercase tracking-wider border-none">
           <Image src={LogoImg} alt="NextLevel Food logo" width={50} height={50} priority className="object-contain" />
           <span className="hidden md:inline-block font-extrabold">NextLevel Food</span>
         </Link>
